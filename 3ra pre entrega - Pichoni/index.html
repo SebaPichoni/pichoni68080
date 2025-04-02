@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <title>Pichoni - Control de Stock</title>
+    </head>
+    <body>
+        <h1>Bienvenidos a Control de Stock</h1>
+
+        <form id="formulario">
+            <input type="text" id="nombreProducto" placeholder="Nombre">
+            <input type="text" id="marcaProducto" placeholder="Marca">
+            <input type="number" id="precioProducto" placeholder="Precio">
+            <input type="number" id="stockProducto" placeholder="Stock">
+            <input type="text" id="idProducto" placeholder="ID">
+            <button type="button" id="botonAgregar">Agregar Producto</button>
+        </form>
+    
+        <button type="button" id="editarOeliminar">Modificar ó Eliminar Producto</button>
+        <button type="button" id="buscarProducto">Buscar Producto</button>
+        <div id="listaProductos">
+            <h2>Lista de Productos</h2>
+            <ul id="productos"></ul>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
